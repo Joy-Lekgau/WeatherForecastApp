@@ -37,7 +37,6 @@ header{
     padding: 15px 30px;
     font-size: 16px;
     color: white;
-    cursor: pointer;
 }
 
 main{
@@ -63,25 +62,26 @@ main{
 }
 
 .weather-app-temperature-container{
-    display:flex;
+    display: flex;
 }
 
 .weather-app-temperature{
     font-size: 88px;
-    margin-left: 10px;
+    line-height: 88px;
     font-weight: bold;
 
     
 }
 
 .weather-app-unit{
-    margin-top: 22px;
-   font-size: 44px;
+    margin-top: 6px;
+   font-size: 28px;
 }
 
 .weather-app-icon{
-    font-size: 44px;
-    margin-top: 22px;
+    width: 88px;
+    height: 88px;
+
 }
 
 .weather-app-data{
